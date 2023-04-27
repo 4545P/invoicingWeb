@@ -1,0 +1,41 @@
+.revise {
+  display: flex;
+  background-color: #777;
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  a {
+    font-size: 40px;
+    top: 100px;
+    color: antiquewhite;
+    text-decoration: none;
+    position: absolute;
+  }
+
+  .p1 {
+    position: absolute;
+    top: 220px;
+    left: 40px;
+    font-size: 25px;
+  }
+  .p2 {
+    position: absolute;
+    top: 220px;
+    left: 50%;
+    font-size: 25px;
+    transform: translateX(-50%);
+  }
+  .p3 {
+    position: absolute;
+    top: 220px;
+    right: 40px;
+    font-size: 25px;
+  }
+  .card {
+    width: 30%;
+    height: 130px;
+    display: flex;
+  }
+}

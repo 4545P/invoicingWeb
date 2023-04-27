@@ -1,0 +1,28 @@
+.top5 {
+  .card {
+    position: relative;
+    a {
+      font-size: 20px;
+      top: 150px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: antiquewhite;
+      text-decoration: none;
+      position: absolute;
+    }
+    .show {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+      background-color: #777;
+      div {
+        display: flex;
+        align-items: start;
+        margin: 5px;
+      }
+    }
+  }
+}

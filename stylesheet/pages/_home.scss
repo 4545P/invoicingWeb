@@ -1,0 +1,49 @@
+.home {
+  background: #777;
+
+  .title {
+    color: lightsalmon;
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+  }
+
+  .p1 {
+    color: bisque;
+    font-size: 20px;
+    position: absolute;
+    top: 60px;
+  }
+  .p2 {
+    color: bisque;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+    .card {
+      width: 30%;
+      height: 285px;
+      margin-top: 70px;
+    }
+    .searchShop {
+      height: 180px;
+      margin-top: 5px;
+    }
+    a {
+      font-size: 20px;
+      margin-top: 20px;
+      color: antiquewhite;
+      text-decoration: none;
+    }
+  }
+}
