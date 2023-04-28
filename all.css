@@ -10859,6 +10859,16 @@ textarea.form-control-lg {
   height: 285px;
   margin-top: 70px;
 }
+.home .cards .card input {
+  display: block;
+  text-align: center;
+  background: none;
+  font-size: 16px;
+  border-radius: 20px;
+  outline: none;
+  color: rgb(195, 66, 34);
+  border: 2px solid #3498db;
+}
 .home .cards .searchShop {
   height: 180px;
   margin-top: 5px;
@@ -10878,6 +10888,16 @@ textarea.form-control-lg {
   justify-content: space-around;
   align-items: center;
   position: relative;
+}
+.revise input {
+  display: block;
+  text-align: center;
+  background: none;
+  font-size: 16px;
+  border-radius: 20px;
+  outline: none;
+  color: rgb(195, 66, 34);
+  border: 2px solid #3498db;
 }
 .revise a {
   font-size: 40px;
@@ -10951,6 +10971,16 @@ textarea.form-control-lg {
   height: 180px;
   margin: 30px;
 }
+.search .card input {
+  display: block;
+  text-align: center;
+  background: none;
+  font-size: 16px;
+  border-radius: 20px;
+  outline: none;
+  color: rgb(195, 66, 34);
+  border: 2px solid #3498db;
+}
 .search .p2 {
   height: 80px;
 }
@@ -10975,6 +11005,16 @@ textarea.form-control-lg {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.sales .card input {
+  display: block;
+  text-align: center;
+  background: none;
+  font-size: 16px;
+  border-radius: 20px;
+  outline: none;
+  color: rgb(195, 66, 34);
+  border: 2px solid #3498db;
 }
 .sales a {
   margin-bottom: 80px;

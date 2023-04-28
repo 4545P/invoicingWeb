@@ -29,11 +29,20 @@
     align-items: center;
     flex-direction: column;
     height: 100vh;
-
     .card {
       width: 30%;
       height: 285px;
       margin-top: 70px;
+      input {
+        display: block;
+        text-align: center;
+        background: none;
+        font-size: 16px;
+        border-radius: 20px;
+        outline: none;
+        color: rgb(195, 66, 34);
+        border: 2px solid #3498db;
+      }
     }
     .searchShop {
       height: 180px;
